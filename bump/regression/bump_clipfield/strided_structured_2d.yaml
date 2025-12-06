@@ -4,14 +4,10 @@ topologies:
     type: "unstructured"
     coordset: "coords"
     elements: 
-      connectivity: [0, 1, 5, 4, 12, 15, 5, 2, 2, 5, 1, 6, 15, 12, 13, 12, 2, 3, 7, 6, 12, 13, 16, 14, 4, 5, 9, 8, 14, 16, 15, 16, 5, 6, 9, 16, 15, 10, 9, 6, 6, 7, 11, 10]
-      shapes: [3, 3, 2, 2, 3, 3, 3, 3, 2, 3, 2, 3]
-      sizes: [4, 4, 3, 3, 4, 4, 4, 4, 3, 4, 3, 4]
-      offsets: [0, 4, 8, 11, 14, 18, 22, 26, 30, 33, 37, 40]
-      shape: "mixed"
-      shape_map: 
-        quad: 3
-        tri: 2
+      connectivity: [0, 1, 5, 4, 1, 2, 12, 15, 5, 12, 6, 15, 2, 3, 13, 12, 13, 7, 6, 12, 4, 5, 16, 14, 16, 9, 8, 14, 5, 15, 16, 15, 6, 10, 9, 16, 6, 7, 11, 10]
+      sizes: [4, 5, 3, 4, 4, 4, 4, 3, 5, 4]
+      offsets: [0, 4, 9, 12, 16, 20, 24, 28, 31, 36]
+      shape: "polygonal"
 coordsets: 
   coords: 
     type: "explicit"
@@ -22,11 +18,11 @@ fields:
   color: 
     topology: "mesh"
     association: "element"
-    values: [0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1]
+    values: [0, 0, 1, 0, 1, 0, 1, 0, 1, 1]
   ele_vals: 
     association: "element"
     topology: "mesh"
-    values: [1.0, 2.0, 2.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 5.0, 5.0, 6.0]
+    values: [1.0, 2.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 5.0, 6.0]
   vert_vals: 
     association: "vertex"
     topology: "mesh"
@@ -34,4 +30,4 @@ fields:
   originalElements: 
     association: "element"
     topology: "mesh"
-    values: [0, 1, 1, 1, 2, 2, 3, 3, 4, 4, 4, 5]
+    values: [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
