@@ -1,7 +1,7 @@
 STEP Files
 =============
 
-This folder contains example STEP files to be used in conjunction with Axom's `quest::StepFileProcessor` to be converted to `primal` primitives. This permits further processing with other Axom methods, such as `primal`'s 3D GWN methods in `winding_number.hpp`, as demonstrated in the preprint [Robust Containment Queries over Collections of Trimmed NURBS Surfaces via Generalized Winding Numbers](https://arxiv.org/abs/2504.11435).
+This folder contains example STEP files to be used in conjunction with Axom's `quest::STEPReader` to be converted to `primal` primitives. This permits further processing with other Axom methods, such as `primal`'s 3D GWN methods in `winding_number.hpp`, as demonstrated in the preprint [Robust Containment Queries over Collections of Trimmed NURBS Surfaces via Generalized Winding Numbers](https://arxiv.org/abs/2504.11435).
 
 
 The following file(s) were created directly within modeling software Rhino3D:
