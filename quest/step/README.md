@@ -34,7 +34,7 @@ The following file(s) are taken from the [ABC dataset](https://doi.org/10.1109/C
 | gear.step | Index 9979 |
 | joint.step | Index 13, modified by adding trimming curves to front face and removing top patch |
 | lamp.step | Index 3800 |
-| nut.step | |
+| nut.step | Index 6 |
 | pipe.step | Index 9992, modified by removing front face of each opening |
 | slide.step | Index 4237 |
 | spring_two_patch.step | Index 86, modified by removing caps and performing Bézier extraction on NURBS surfaces |
