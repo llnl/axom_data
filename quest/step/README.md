@@ -7,7 +7,6 @@ The following file(s) were created directly within modeling software Rhino3D:
 | Filename | Additional Notes |
 | -------- | ---------------- |
 | boxed_sphere.step | Based on STL example [quest/boxedSphere.stl](https://github.com/LLNL/axom_data/blob/main/quest/boxedSphere.stl) |
-| half_boxed_sphere.step | The shape in `boxed_sphere.step` split along the middle, slightly offset |
 | fig4_discretized_surface.step | |
 | fig4_original_surface.step | |
 | open_cylinder.step | Based on example in [Marussig and Hughes 2017](https://doi.org/10.1007/s11831-017-9220-9) with top face removed |
@@ -32,6 +31,7 @@ The following file(s) are taken from the [ABC dataset](https://doi.org/10.1109/C
 | bearings.step | Index 7963 |
 | bobbin.step | Index 933, modified by removing interior and features to expose holes on top face |
 | bolt.step | Index 3450 |
+| bolt_clip.step | Index 14677 |
 | gear.step | Index 9979 |
 | joint.step | Index 13, modified by adding trimming curves to front face and removing top patch |
 | lamp.step | Index 3800 |
