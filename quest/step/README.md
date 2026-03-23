@@ -19,7 +19,8 @@ The following file(s) were created directly within modeling software Rhino3D:
 The following file(s) were defined directly from Axom primitives 
 | Filename | Additional Notes |
 | -------- | ---------------- |
-| biquintic_sphere_surface.step | Derived with formulas in [Cobb 1988](https://collections.lib.utah.edu/ark:/87278/s61g14n6) |
+| biquartic_sphere.step | Derived with formulas in [Cobb 1988](https://collections.lib.utah.edu/ark:/87278/s61g14n6) |
+| biquartic_sphere_surface.step | Top surface of `biquartic_sphere.step` |
 | teardrop.step | |
 | vase.step | Based on example in [Martens and Bessmeltsev 2025](https://doi.org/10.1111/cgf.70194) |
 
