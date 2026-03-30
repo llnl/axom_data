@@ -19,7 +19,8 @@ The following file(s) were created directly within modeling software Rhino3D:
 The following file(s) were defined directly from Axom primitives 
 | Filename | Additional Notes |
 | -------- | ---------------- |
-| biquintic_sphere_surface.step | Derived with formulas in [Cobb 1988](https://collections.lib.utah.edu/ark:/87278/s61g14n6) |
+| biquartic_sphere.step | Derived with formulas in [Cobb 1988](https://collections.lib.utah.edu/ark:/87278/s61g14n6) |
+| biquartic_sphere_surface.step | Top surface of `biquartic_sphere.step` |
 | teardrop.step | |
 | vase.step | Based on example in [Martens and Bessmeltsev 2025](https://doi.org/10.1111/cgf.70194) |
 
@@ -31,11 +32,13 @@ The following file(s) are taken from the [ABC dataset](https://doi.org/10.1109/C
 | bearings.step | Index 7963 |
 | bobbin.step | Index 933, modified by removing interior and features to expose holes on top face |
 | bolt.step | Index 3450 |
+| bolt_clip.step | Index 14677 |
 | gear.step | Index 9979 |
 | joint.step | Index 13, modified by adding trimming curves to front face and removing top patch |
 | lamp.step | Index 3800 |
 | nut.step | Index 6 |
 | pipe.step | Index 9992, modified by removing front face of each opening |
+| plate.step | Index 14683 |
 | slide.step | Index 4237 |
 | spring_two_patch.step | Index 86, modified by removing caps and performing Bézier extraction on NURBS surfaces |
 | spring.step | Index 86, modified by removing caps at each end of cylinder |
