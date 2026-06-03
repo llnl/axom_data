@@ -1,0 +1,8 @@
+point = spline_start
+piece = rz(units=cm, interpolation=linear, 
+     rz=  0 5
+		  5 0
+		  5 0
+		  0 -5)
+point = spline_end
+piece = line(end=spline_start)
