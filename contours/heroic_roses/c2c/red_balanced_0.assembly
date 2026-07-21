@@ -1,0 +1,3 @@
+pieces = contour(path='red0.contour')
+pieces = contour(path='red2.contour')
+pieces = contour(path='red5.contour')
