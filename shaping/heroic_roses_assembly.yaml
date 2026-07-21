@@ -1,0 +1,120 @@
+dimensions: 2
+
+shapes:
+- name: greenishbrown0
+  material: greenishbrown
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/greenishbrown.contour
+- name: brightgreen0
+  material: brightgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/brightgreen.contour
+  does_not_replace: ["greenishbrown"]
+- name: darkgreen0
+  material: darkgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/darkgreen.assembly
+- name: blue0
+  material: blue
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/blue.assembly
+- name: yellow0
+  material: yellow
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/yellow.assembly
+- name: purplish0
+  material: purplish
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/purplish.assembly
+- name: pink0
+  material: pink
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/pink.assembly
+  does_not_replace: ["darkgreen"]
+
+- name: black_balanced_0
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/black_balanced_0.assembly
+- name: black_balanced_1
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/black_balanced_1.assembly
+- name: black_balanced_2
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/black_balanced_2.assembly
+- name: black_balanced_3
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/black_balanced_3.assembly
+- name: black_balanced_4
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/black_balanced_4.assembly
+- name: black_balanced_5
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/black_balanced_5.assembly
+- name: black_balanced_6
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/black_balanced_6.assembly
+- name: black_balanced_7
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/black_balanced_7.assembly
+- name: black_balanced_8
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/black_balanced_8.assembly
+- name: black_balanced_9
+  material: black
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/black_balanced_9.assembly
+
+- name: red0
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/red_balanced_0.assembly
+  does_not_replace: ["black"]
+- name: red1
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/red_balanced_1.assembly
+  does_not_replace: ["black"]
+- name: red2
+  material: red
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/red_balanced_2.assembly
+  does_not_replace: ["black"]
+- name: brightgreen0
+  material: brightgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/brightgreen_over.contour
+- name: darkgreen0
+  material: darkgreen
+  geometry:
+    format: c2c
+    path: ../contours/heroic_roses/c2c/darkgreen_over1.contour

@@ -1,0 +1,8 @@
+pieces = contour(path='black11.contour')
+pieces = contour(path='black18.contour')
+pieces = contour(path='black24.contour')
+pieces = contour(path='black40.contour')
+pieces = contour(path='black42.contour')
+pieces = contour(path='black43.contour')
+pieces = contour(path='black58.contour')
+pieces = contour(path='black63.contour')
