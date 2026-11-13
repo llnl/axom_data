@@ -46,6 +46,21 @@ The following file(s) are taken from the [ABC dataset](https://doi.org/10.1109/C
 
 <br/>
 
+## Synthetic trimming regressions
+
+These five open faces were generated with Open Cascade 7.8 to reproduce trim problems
+observed on zero-based faces 26, 31, and 41 of [Solid_56.step from gmsh's benchmarks](https://gitlab.onelab.info/gmsh/gmsh/).
+
+| Filename | Purpose |
+| -------- | ------- |
+| periodic_seam_cone.step | Analytic cone with a wavy upper trim and a UV chart spanning one period from -0.2 turns. Tests periodic conversion and shared seam occurrences. |
+| fixed_seam_offset_cone.step | The same conical region with its UV chart starting at zero. |
+| nonperiodic_trim_excursion.step | Bilinear support on `[0,1]^2` with a quadratic trim reaching `v=1.2`. Both trim endpoints remain inside the support. |
+| trim_gap.step | Anisotropic bilinear support with one UV endpoint gap of `2e-5`, corresponding to `8e-8` mm in physical space. |
+| closed_control.step | The same bilinear region as `trim_gap.step` with no endpoint gap. |
+
+<br/>
+
 Miscellaneous
 | Filename | Additional Notes |
 | -------- | ---------------- |
